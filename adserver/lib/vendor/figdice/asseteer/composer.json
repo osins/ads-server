@@ -1,0 +1,23 @@
+{
+  "name": "figdice/asseteer",
+  "type": "library",
+  "description": "Post-install resource copy script for Composer",
+  "keywords": ["composer","resources","javascript","stylesheet","deploy","install"],
+  "homepage": "https://github.com/gabrielzerbib/asseteer",
+  "version": "1.0.0",
+  "license": ["GPL-3.0+"],
+  "authors": [
+    {
+      "name": "Gabriel Zerbib",
+      "email": "gabriel@figdice.org"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "asseteer\\": "./"
+    }
+  }
+}
